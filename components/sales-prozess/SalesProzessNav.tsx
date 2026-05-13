@@ -6,8 +6,9 @@ import { usePathname } from "next/navigation";
 const BASE = "/playbooks/sales-prozess";
 
 const tabs = [
-  { label: "Übersicht", href: BASE },
-  { label: "Workflow", href: `${BASE}/workflow` },
+  { label: "Übersicht",     href: BASE },
+  { label: "Workflow",      href: `${BASE}/workflow` },
+  { label: "Automationen",  href: `${BASE}/automationen` },
 ];
 
 export function SalesProzessNav() {
